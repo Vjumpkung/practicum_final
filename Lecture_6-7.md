@@ -96,7 +96,7 @@
 ---
 # PCB Design 2
 
-## ตัวอย่าวงอุปกรณ์
+## ตัวอย่างอุปกรณ์
 
 - Resistor
 - Capacitor

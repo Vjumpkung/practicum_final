@@ -28,6 +28,11 @@ sudo apt install gcc-avr avr-libc binutils-avr avrdude
 sudo nano /etc/udev/rules.d/45-objdev.rules
 ```
 
+ป้อนข้อมูลดังนี้ โดยให้ข้อความทั้งหมดอยู่ในบรรทัดเดียวกัน
+```
+SUBSYSTEM=="usb", ATTR{idVendor}=="16c0", ATTR{idProduct}=="05dc", OWNER:="root", GROUP:="plugdev", MODE:="0666"
+```
+
 ### สั่งให้บริการ udev เริ่มต้นทำงานใหม่
 
 ```

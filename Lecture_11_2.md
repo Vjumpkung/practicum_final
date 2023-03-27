@@ -12,7 +12,7 @@ uint8_t reg;
 reg |= 1 << 5; // set bit 5
 ```
 
-### clear but เป็น 0
+### clear bit เป็น 0
 
 ```c
 reg &= ~(1 << 3); // clear bit 3
